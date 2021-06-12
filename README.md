@@ -23,4 +23,9 @@ How is it composed?
   * Controllers: 
   * Routes:
   * Models: 
-* The fifth container runs Angular...
+* The fifth container runs Angular. This container builds (for production) the angular project and then run it with `Nginx` on the port 4200.
+
+
+---
+
+[Teams recording](https://uadecedumy.sharepoint.com/:v:/r/personal/hernandez_roberto_uadec_edu_mx/Documents/Grabaciones/Llamada%20con%20JOSE%20y%201%20m%C3%A1s-20210611_225504-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4?csf=1&web=1&e=S4cRUy)
