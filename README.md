@@ -1,5 +1,7 @@
 # Layered-Architecture-Project-With-Docker
-DAS Sistemas project.
+DAS Sistemas project using Docker and more...
+
+![docker-compose](https://producthackers.com/wp-content/uploads/2020/11/Docker-composer.png)
 
 Run this project by typing in your terminal `docker-compose up` or `docker-compose up -d` to hide the container logs.
 
@@ -20,12 +22,21 @@ How is it composed?
   * Password: bar123 
 * The third container is named generator. This container inserts 1000 records to the `MongoDB` database obtained of a XML file. We use Python.
 * The fourth container is an API. We use Node.JS and Express. We structure our project by using the software design pattern. It's divided mainly in three parts:
-  * Controllers: 
-  * Routes:
-  * Models: 
-* The fifth container runs Angular. This container builds (for production) the angular project and then run it with `Nginx` on the port 4200.
+  * Controllers: It's between the Routes file and the Models file. It manages the requests, connects to the database using the model and produces a response.
+  * Routes: Contains the endpoints and delegates the request to the controller.
+  * Models: Models the type of that we want to save in the database.
+* The fifth container runs Angular. This container builds (for production) the angular project and then runs it with `Nginx` on the port 4200.
 
 
 ---
 
-[Teams recording] https://n9.cl/rhxkz
+**The teams recording is below:**
+
+[Teams recording](https://n9.cl/rhxkz)
+
+
+---
+
+**Diagram**
+
+![diagram](Diagram.png)
