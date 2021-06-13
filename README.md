@@ -28,4 +28,4 @@ How is it composed?
 
 ---
 
-[Teams recording](https://uadecedumy.sharepoint.com/:v:/r/personal/hernandez_roberto_uadec_edu_mx/Documents/Grabaciones/Llamada%20con%20JOSE%20y%201%20m%C3%A1s-20210611_225504-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4?csf=1&web=1&e=S4cRUy)
+[Teams recording] https://n9.cl/rhxkz
